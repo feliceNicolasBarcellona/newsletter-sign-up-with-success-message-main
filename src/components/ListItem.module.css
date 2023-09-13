@@ -1,0 +1,9 @@
+.list {
+  display: flex;
+  align-items: center; 
+  /* margin-bottom: 14.3px; */
+}
+
+.list p {
+  margin: 0 0 0 15px;
+}
