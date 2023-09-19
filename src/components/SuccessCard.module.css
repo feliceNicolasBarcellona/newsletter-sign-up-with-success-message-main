@@ -1,0 +1,47 @@
+.success-card {
+  background-color: hsl(0, 0%, 100%);
+  height: 520px;
+  width: 504px;
+  border-radius: 35px;
+  padding: 47px 63px 0 65px;
+}
+
+.success-card .title {
+  font-size: 55.9px;
+  font-weight: 700;
+  margin: 35px 0 0 0;
+  line-height: 1.01em;
+}
+
+.success-card .confirm-message {
+  margin: 26px 0 0 0;
+  line-height: 1.42em;
+}
+
+.success-card button {
+  margin: 40px 0 0 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .success-card {
+    width: 374px;
+    height: 100%;
+    max-height: 874px;
+    border-radius: 0;
+    padding: 147px 23px 0 25px;
+  }
+
+  .success-card .title {
+    font-size: 39.3px;
+    margin: 40px 0 0 0;
+  }
+
+  .success-card .confirm-message {
+    margin: 22px 0 0 0;
+    line-height: 1.5em;
+  }
+
+  .success-card button {
+    margin: 262px 0 0 0;
+  }
+}

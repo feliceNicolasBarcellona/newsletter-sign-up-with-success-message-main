@@ -1,9 +1,21 @@
 .list {
   display: flex;
   align-items: center; 
-  /* margin-bottom: 14.3px; */
+  margin-bottom: 14.3px;
 }
 
 .list p {
   margin: 0 0 0 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .list {
+    align-items: flex-start;
+    margin-bottom: 15px;
+  }
+
+  .list p {
+    line-height: 1.5em;
+    margin: 0 0 -4px 15px;
+  }
 }
